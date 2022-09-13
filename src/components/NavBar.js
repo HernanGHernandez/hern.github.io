@@ -3,8 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { Navbar, Nav, Button, Container, NavbarBrand } from 'react-bootstrap';
 import "../styles/NavBar.css";
 import { FaEllipsisH } from "react-icons/fa";
-import { TbArrowBack, TbBrandGithub, } from "react-icons/tb";
-import { FiLinkedin, FiInstagram } from "react-icons/fi";
+import { TbArrowBack } from "react-icons/tb";
 import NavbarCollapse from 'react-bootstrap/esm/NavbarCollapse';
 
 export const NavBar = () => {

@@ -1,0 +1,124 @@
+.aboutme {
+    margin-top: 0%;
+    /* padding: 260px 0 100px 0; */
+    /* background-image: url('../assets/img/minimalist-hern.png'); */
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    /* Magic here */
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+/* top header */
+.aboutme .tagline {
+    font-weight: 100;
+    letter-spacing: .8;
+    padding: 8px 10px;
+    font-size: 60px;
+    margin-bottom: 1px;
+    text-align: center;
+    /* display: inline-block; */
+}
+
+.aboutme h1 {
+    /* font-size: 100px; */
+    font-weight: 200;
+    letter-spacing: 0.8px;
+    line-height: 1;
+    text-align: center;
+}
+
+.aboutme .img {
+    position: absolute;
+}
+
+.outerImg {
+    background-color: #3b3c36;
+    padding: 10px 390px 0px 0px;
+    border-radius: 10px;
+}
+
+/* backgrounds for about me */
+.innerBackground {
+    background-color: #cfcfc4;
+    padding: 60px 0 60px 0;
+    border-radius: 25px;
+}
+
+.outerBackground {
+    background-color: #3b3c36;
+    padding: 20px 20px 0 0;
+    border-radius: 50px;
+}
+
+/* about me content */
+.aboutme .resumeBtn {
+    background-color: #3b3c36;
+    color: #cfcfc4;
+    border-radius: 30px 30px 30px 30px;
+    border-width: 1px;
+    border-style: solid;
+    padding: 5px 40px;
+    align-items: flex-end;
+    position: relative;
+    font-size: 18px;
+    outline: 10px;
+    /* padding: 5px; */
+    /* width: 100%; */
+    margin-left: 5px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+/* about me body */
+.aboutme .list-group-item {
+    background-color: #cfcfc4;
+    font-size: 18px;
+
+}
+
+/* resume button */
+.aboutme .resumeBtn:hover {
+    background-color: #cfcfc4;
+    color: #3b3c36;
+}
+
+/* email button */
+.aboutme .email {
+    color: #3b3c36;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.aboutme .email:hover {
+    color: #3b3c36;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+/* social icons */
+.aboutme .social-icon {
+    text-align: center;
+    margin-left: 120px;
+    /* margin-right: 40px; */
+}
+
+.aboutme .social-icon a {
+    color: #3b3c36;
+    /* text-align: center; */
+    width: 42px;
+    height: 42px;
+    display: inline-flex;
+    border-radius: 50%;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;
+    /* line-height: 1; */
+}

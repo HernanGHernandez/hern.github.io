@@ -19,7 +19,7 @@ body {
     overflow-x: hidden;
     position: relative;
     background-color: #cfcfc4 !important;
-    color: #3b3c36 !important;
+    color: #3b3c36;
     font-family: sans-serif !important;
 }
 
@@ -57,7 +57,7 @@ nav.navbar {
 
 nav.navbar.scrolled {
     padding: 0px 0;
-    background-color: aliceblue;
+    background-color: #3b3c36;
 }
 
 /* mobile view */
