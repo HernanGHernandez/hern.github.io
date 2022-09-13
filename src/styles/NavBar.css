@@ -48,10 +48,11 @@ nav.navbar {
     padding: 15px 0;
     position: fixed;
     width: 100%;
-    top: 0;
+    /* top: -200px; */
     z-index: 9999;
     transition: 0.50 ease-in-out;
     box-shadow: 2px 2px 5px #3b3c36;
+    /* transition: top 0.3s; */
 }
 
 nav.navbar.scrolled {

@@ -1,6 +1,6 @@
 .banner {
-    /* margin-top: 0%;
-    padding: 260px 0 100px 0; */
+    margin-top: 0%;
+    /* padding: 260px 0 100px 0; */
     /* background-image: url('../assets/img/minimalist-hern.png'); */
     background-position: top center;
     background-size: cover;
@@ -9,6 +9,7 @@
     /* Magic here */
     display: flex;
     justify-content: center;
+    align-content: center;
     align-items: center;
 }
 
@@ -16,21 +17,68 @@
     font-weight: 700;
     letter-spacing: .8;
     padding: 8px 10px;
-    /* border: 1px solid brown; */
-    font-size: 20px;
+    font-size: 60px;
     margin-bottom: 16px;
-    display: inline-block;
+    text-align: center;
+    /* display: inline-block; */
 }
 
 .banner h1 {
-    font-size: 65px;
+    font-size: 200px;
     font-weight: 700;
     letter-spacing: 0.8px;
     line-height: 1;
     margin-bottom: 20px;
-    display: block;
+    text-align: center;
 }
 
-.banner .drawImg {
-    size: 20px 20px;
+.banner .Typewriter {
+    font-size: 24px;
+    padding: 8px 10px;
+    font-weight: 700;
+    margin-top: 0px;
+    text-align: center;
+    /* margin-bottom: 16px; */
+}
+
+/* down arrow button */
+.banner .dropBtn {
+    padding: 35px 1px;
+    position: relative;
+    margin-top: 120px;
+    background-color: transparent;
+    /* background-repeat: no-repeat; */
+    border: none;
+    animation: updown 2s linear infinite;
+    color: #3b3c36 !important;
+}
+
+@keyframes updown {
+    0% {
+        transform: scale(1, 1) translateY(0);
+    }
+
+    10% {
+        transform: scale(1.1, .9) translateY(0);
+    }
+
+    30% {
+        transform: scale(.9, 1.1) translateY(-25px);
+    }
+
+    50% {
+        transform: scale(1, 1) translateY(0);
+    }
+
+    57% {
+        transform: scale(1, 1) translateY(-7px);
+    }
+
+    64% {
+        transform: scale(1, 1) translateY(0);
+    }
+
+    100% {
+        transform: scale(1, 1) translateY(0);
+    }
 }

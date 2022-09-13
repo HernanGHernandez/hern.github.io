@@ -4,12 +4,13 @@ import { AiOutlineDown } from "react-icons/ai";
 import Typewriter from "typewriter-effect";
 import "../styles/Banner.css";
 import hernDrawing from "../assets/img/minimalist-hern.png"
+// import  styled, { ke}
 export const Banner = () => {
-    const [loopNum, setLoop] = useState(0);
-    const [isDeleting, setIsDeleting] = useState(false)
-    const [text, setText] = useState('');
-    const [delta, setDelta] = useState(300 - Math.random() * 100);
-    const period = 3000;
+    // const [loopNum, setLoop] = useState(0);
+    // const [isDeleting, setIsDeleting] = useState(false)
+    // const [text, setText] = useState('');
+    // const [delta, setDelta] = useState(300 - Math.random() * 100);
+    // const period = 3000;
 
     // useEffect(() => {
     //     let ticker = setInterval(() => {
@@ -36,16 +37,17 @@ export const Banner = () => {
     //         setDelta(500);
     //     }
     // }
-    const toRotate = ["Hey there!", "Nice to Meet You.", `I'm a recent CS-Software Engineering grad from CSU Monterey Bay!`, 'Aside from enjoying full stack work', 'i recently found a new hobby in building custom keyboards', 'i also enjoy creating minimalist art.', 'Thanks for visiting!'];
+    // const toRotate = ["Hey there!", "Nice to Meet You.", `I'm a recent CS-Software Engineering grad from CSU Monterey Bay!`, 'Aside from enjoying full stack work', 'i recently found a new hobby in building custom keyboards', 'i also enjoy creating minimalist art.', 'Thanks for visiting!'];
     return (
         <section className="banner" id="home">
             <Container>
-                <Row className="align-items-center">
-                    <Col xs={12} md={6} xl={5}>
+                <Row className="justify-content-md-center">
+                    <Col xs={3} md={5} xl={5}>
                         <img width={500} src={hernDrawing} alt="header_Img" />
                     </Col>
+                    {/* <Col md="auto"> width contnet</Col> */}
 
-                    <Col xs={12} md={6} xl={7}>
+                    <Col xs={7} md={5} xl={6}>
                         <h1><span className="tagline">Hernan Hernandez </span></h1>
                         <Typewriter
                             options={{
@@ -56,11 +58,14 @@ export const Banner = () => {
                                 deleteSpeed: 20
                             }}
                         />
-                        <button onClick={() => console.log('go down to my stuff')}>
-                            <AiOutlineDown size={30} />
+                    </Col>
+                    <Col xs={3} md={2} xl={1}>
+                        <button className='dropBtn' onClick={() => console.log('go down to my stuff')}>
+                            <AiOutlineDown size={35} />
                         </button>
                     </Col>
                 </Row>
+
             </Container>
         </section >
     )
