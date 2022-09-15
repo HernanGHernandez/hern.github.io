@@ -1,0 +1,20 @@
+.Education {
+    padding: 80px 0;
+    position: relative;
+    background-color: #474d5a;
+    text-align: center;
+    color: #cfcfc4;
+}
+
+.Education .title {
+    padding: 0px 0px 40px 0px;
+    color: #cfcfc4;
+}
+
+.containerSchool {
+    text-align: left;
+}
+
+.courses {
+    text-align: left;
+}

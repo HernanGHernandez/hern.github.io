@@ -5,6 +5,9 @@ import "../styles/NavBar.css";
 import { FaEllipsisH } from "react-icons/fa";
 import { TbArrowBack } from "react-icons/tb";
 import NavbarCollapse from 'react-bootstrap/esm/NavbarCollapse';
+import {
+    BrowserRouter as Router
+} from "react-router-dom";
 
 export const NavBar = () => {
 
@@ -12,16 +15,27 @@ export const NavBar = () => {
     const [click, setClick] = useState(false);
     const [activeLink, setActiveLink] = useState('home');
     const [scrolled, setScrolled] = useState(false);
-    const location = useLocation();
+    const [show, setShow] = useState(false)
+    // const location = useLocation();
+
+    // useEffect(() => {
+    //     setClick(!click);
+    // }, [location]);
+
+
 
     const handleClick = () => {
         setClick(!click);
     }
 
-    useEffect(() => {
-        setClick(!click);
-    }, [location]);
-
+    // show navbar
+    const controlNavbar = () => {
+        if (window.scrollY > 100) {
+            setShow(true)
+        } else {
+            setShow(false)
+        }
+    }
     // Window scroll
     useEffect(() => {
         const onScroll = () => {
@@ -35,15 +49,24 @@ export const NavBar = () => {
 
         return () => window.removeEventListener("scroll", onScroll);
     }, [])
-
+    // NAVBAR SHOW  
+    useEffect(() => {
+        window.addEventListener('scroll', controlNavbar)
+        return () => {
+            window.removeEventListener('scroll', controlNavbar)
+        }
+    }, [])
     // active link
     const onUpdateActiveLink = (value) => {
         setActiveLink(value);
     }
 
     return (
-        <header>
-            <Navbar className={scrolled ? "scrolled" : ""} expand="lg" bg="light" variant="light" id={click ? "open" : "close"} >
+        <header className={`acitve ${show && 'hidden'}`}>
+            {/* expand="lg" */}
+            {/* {scrolled ? "scrolled" : ""} */}
+            {/* `${scrolled ? "scrolled" : ""} ${show && nav.navbar}` */}
+            <Navbar className={scrolled ? "scrolled" : ""} id={click ? "open" : "close"} expand="lg">
                 <Container>
 
                     {/* Logo */}
@@ -62,9 +85,9 @@ export const NavBar = () => {
                         <Nav className='ms-auto'>
                             {/* <div className="links"> */}
                             {/* <div className="navbar-nav ms-auto"> */}
-                            <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}> About </Nav.Link>
-                            <Nav.Link href="#education" className={activeLink === 'education' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}> Education </Nav.Link>
-                            <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}> Projects </Nav.Link>
+                            <Nav.Link href="#about" className={activeLink === 'about' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('about')}> About </Nav.Link>
+                            <Nav.Link href="#education" className={activeLink === 'education' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('education')}> Education </Nav.Link>
+                            <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('project')}> Projects </Nav.Link>
                             {/* </div> */}
                             {/* </div> */}
                         </Nav>

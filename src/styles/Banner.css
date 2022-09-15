@@ -13,6 +13,10 @@
     align-items: center;
 }
 
+.banner .photo {
+    width: 500px;
+}
+
 .banner .tagline {
     font-weight: 700;
     letter-spacing: .8;
@@ -83,5 +87,41 @@
 
     100% {
         transform: scale(1, 1) translateY(0);
+    }
+}
+
+/* for mobile not ready yet */
+@media screen and (max-width:940px) {
+    /* .banner {
+        height: 90vh;
+    } */
+
+    .banner .photo {
+        width: 400px;
+        height: 600px
+    }
+
+    .banner .tagline {
+        color: #cfcfc4;
+        /* margin-top: 0px; */
+        display: inline-block;
+
+        /* left: 16px; */
+    }
+
+    .banner .Typewriter {
+        color: #cfcfc4;
+        display: inline-block;
+
+        background-color: #585046;
+    }
+
+    .text-block {
+        position: absolute;
+        bottom: 149px;
+        right: 10px;
+        padding-left: 12px;
+        padding-right: 1px;
+        padding-top: 100px;
     }
 }
