@@ -32,7 +32,8 @@
     font-weight: 700;
     letter-spacing: 0.8px;
     line-height: 1;
-    margin-bottom: 20px;
+    margin-top: 100px;
+    margin-bottom: 10px;
     text-align: center;
     color: #3b3c36;
 }
@@ -40,19 +41,21 @@
 /* type writer text */
 .banner .Typewriter {
     font-size: 24px;
-    padding: 8px 10px;
+    padding: 0px 0px 10px 50px;
     font-weight: 700;
-    margin-top: 0px;
+    /* margin-top: 100px; */
     text-align: center;
+    margin-right: 100px;
     /* margin-bottom: 16px; */
     color: #3b3c36;
 }
 
 /* down arrow button */
 .banner .dropBtn {
-    padding: 35px 1px;
+    /* padding: 35px 1px; */
     position: relative;
-    margin-top: 120px;
+    margin-top: 125px;
+    /* margin-right: 200px; */
     background-color: transparent;
     /* background-repeat: no-repeat; */
     border: none;
@@ -98,16 +101,38 @@
 
     .banner .photo {
         width: 400px;
-        height: 600px
+        height: 600px;
+
+    }
+
+    .banner .dropBtn {
+        /* padding: 35px 1px; */
+        position: relative;
+        margin-top: 200px;
+        /* margin-right: 200px; */
+        background-color: transparent;
+        color: #cfcfc4 !important;
     }
 
     .banner .tagline {
         color: #cfcfc4;
-        /* margin-top: 0px; */
+        /* margin-left: 500px; */
         display: inline-block;
 
-        /* left: 16px; */
     }
+
+    .banner h1 {
+        color: #cfcfc4;
+        font-size: 100px;
+        /* display: inline-block; */
+        font-weight: 700;
+
+        line-height: 1;
+        /* margin-top: 100px; */
+        /* margin-bottom: 10px; */
+        text-align: center;
+    }
+
 
     .banner .Typewriter {
         color: #cfcfc4;

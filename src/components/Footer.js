@@ -7,7 +7,7 @@ import "../styles/Footer.css";
 
 export const Footer = () => {
     return (
-        <section class="Footer" id="Footer">
+        <section className="Footer" id="Footer">
             <Container>
                 <div className='Contact'>
                     <a href="mailto:hernanghrndz@gmail.com"><AiOutlineMail size={35} /></a>

@@ -10,9 +10,13 @@ import { HashLink as Link } from 'react-router-hash-link';
 
 export const Banner = () => {
     // const [move, setMove] = useState(false);
-
+    const [click, setClick] = useState(false);
+    // const handleClick = () => {
+    //     setClick(!click);
+    // }
     const handleClick = () => {
         // setMove(!move);
+        setClick(!click);
         return <Link to="#about" smooth="true" />
     }
 
@@ -29,7 +33,7 @@ export const Banner = () => {
 
                     <Col xs={9} md={5} xl={6}>
                         <h1><span className="tagline">Hernan Hernandez </span></h1>
-                        <div class="text-block">
+                        <div className="text-block">
                             <Typewriter
                                 options={{
                                     strings: ["Hey there!", "Nice to Meet You.", `I'm a recent CS-Software Engineering grad from CSU Monterey Bay!`, 'Aside from enjoying full stack work', 'i recently found a new hobby in building custom keyboards', 'i also enjoy creating minimalist art.', 'Thanks for visiting!'],
@@ -42,9 +46,11 @@ export const Banner = () => {
                         </div>
                     </Col>
                     <Col xs={2} md={2} xl={1}>
-                        <button className='dropBtn' onClick={handleClick}>
-                            <AiOutlineDown size={35} />
-                        </button>
+                        <div className='dropBtn'>
+                            <button className='dropBtn' onClick={handleClick}>
+                                <AiOutlineDown size={35} />
+                            </button>
+                        </div>
                     </Col>
                 </Row>
 
