@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from 'react';
-import { Navigate } from 'react-router-dom';
+import React, { useState } from 'react';
 import { Container, Row, Col } from "react-bootstrap";
 import { AiOutlineDown } from "react-icons/ai";
 import Typewriter from "typewriter-effect";
@@ -9,15 +8,10 @@ import hernDrawing from "../assets/img/minimalist-hern.png"
 import { HashLink as Link } from 'react-router-hash-link';
 
 export const Banner = () => {
-    // const [move, setMove] = useState(false);
     const [click, setClick] = useState(false);
-    // const handleClick = () => {
-    //     setClick(!click);
-    // }
     const handleClick = () => {
-        // setMove(!move);
-        setClick(!click);
-        return <Link to="#about" smooth="true" />
+        console.log("you clickd")
+        // return <Link to="#About" smooth="true" />
     }
 
     return (
@@ -47,9 +41,11 @@ export const Banner = () => {
                     </Col>
                     <Col xs={2} md={2} xl={1}>
                         <div className='dropBtn'>
-                            <button className='dropBtn' onClick={handleClick}>
-                                <AiOutlineDown size={35} />
-                            </button>
+                            <Link to="/#About">
+                                <button className='dropBtn' onClick={handleClick}>
+                                    <AiOutlineDown size={35} />
+                                </button>
+                            </Link>
                         </div>
                     </Col>
                 </Row>

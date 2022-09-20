@@ -26,12 +26,12 @@ function App() {
         <Education />
         <Projects />
         <Footer />
-        <Routes>
+        {/* <Routes>
           <Route path='/' />
-          {/* <Route path='/about' element={<About />} /> */}
-          {/* <Route path='/education' element={<Education />} /> */}
-          {/* <Route path='/projects' element={<Projects />} /> */}
-        </Routes>
+          <Route path='/about' element={<About />} />
+          <Route path='/education' element={<Education />} />
+          <Route path='/projects' element={<Projects />} />
+        </Routes> */}
       </BrowserRouter>
     </>
   );

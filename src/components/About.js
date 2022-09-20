@@ -9,7 +9,7 @@ import { FiLinkedin, FiInstagram } from "react-icons/fi";
 
 export const About = () => {
     return (
-        <section className="about" id="about">
+        <section className="about" id="About">
             <Container>
                 {/* <div className='outerBackground'> */}
                 <div className='innerBackground'>
