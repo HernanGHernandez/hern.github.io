@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Container, Row, Col, ListGroup, Badge, Button } from "react-bootstrap";
-import Typewriter from "typewriter-effect";
 import "../styles/About.css";
-import hern2 from "../assets/img/hern2.jpeg"
+import hernResume from "../assets/img/Hernan_Hernandez_Resume.pdf"
 import hern from "../assets/img/hern.jpeg"
 import { TbBrandGithub, } from "react-icons/tb";
 import { FiLinkedin, FiInstagram } from "react-icons/fi";
@@ -25,7 +24,7 @@ export const About = () => {
                                 <ListGroup.Item> <b> HomeTown: </b> Greenfield, California</ListGroup.Item>
                                 <ListGroup.Item> <b> School: </b> California State University Monterey Bay</ListGroup.Item>
                                 <ListGroup.Item><b> Hobbies: </b> Cooking, Weight Lifting, Art Design,  </ListGroup.Item>
-                                <ListGroup.Item> <b> Resume: </b> <a href="" className="resumeBtn">Hernandez_Hernan_Resume</a></ListGroup.Item>
+                                <ListGroup.Item> <b> Resume: </b> <a href={hernResume} className="resumeBtn">Hernandez_Hernan_Resume</a></ListGroup.Item>
                                 <ListGroup.Item><b> Contact Me:</b> <a className="email" href="mailto:hernanghrndz@gmail.com">hernanghrndz@gmail.com</a></ListGroup.Item>
                             </ListGroup>
                             {/* </Col>
