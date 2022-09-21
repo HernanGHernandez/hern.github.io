@@ -18,6 +18,21 @@ import wishList from "../assets/img/wishlist.png"
 export const Projects = () => {
     const projects = [
         {
+            Title: "Food Track",
+            description: "A platform for food trucks to be able to create a profile and share on a post their current location. Customers will be able to see where their followed/favorite food trucks are currently at.",
+            imgUrl: foodtrack,
+        },
+        {
+            Title: "Personal Website",
+            description: "This website made with react, javascript and css",
+            imgUrl: myWeb,
+        },
+        {
+            Title: "Gigster",
+            description: "Craiglist clone with mySQL backend that allows a user to post, contact and save jobs",
+            imgUrl: gigster,
+        },
+        {
             Title: "Parstagram",
             description: "Instagram clone with a custom Parse backend that allows a user to post photos and view a global photos feed",
             imgUrl: insta,
@@ -28,14 +43,9 @@ export const Projects = () => {
             imgUrl: flix,
         },
         {
-            Title: "Gigster",
-            description: "Craiglist clone with mySQL backend that allows a user to post, contact and save jobs",
-            imgUrl: gigster,
-        },
-        {
-            Title: "Food Track",
-            description: "A platform for food trucks to be able to create a profile and share on a post their current location. Customers will be able to see where their followed/favorite food trucks are currently at.",
-            imgUrl: foodtrack,
+            Title: "Wish List",
+            description: "Persistent website where a user can add, update and delete items from their wishlist",
+            imgUrl: wishList,
         },
         {
             Title: "Twit",
@@ -52,21 +62,7 @@ export const Projects = () => {
             description: "Android app where a user can see available parking spots at school lots",
             imgUrl: parking,
         },
-        {
-            Title: "Personal Website",
-            description: "This website made with react, javascript and css",
-            imgUrl: myWeb,
-        },
-        {
-            Title: "Tip Calculator",
-            description: "User can calculate certain tip with inputed number",
-            imgUrl: tipCalc,
-        },
-        {
-            Title: "Wish List",
-            description: "Persistent website where a user can add, update and delete items from their wishlist",
-            imgUrl: wishList,
-        },
+
     ];
     // const Box = props => <div className="box">{props.children} </div>;
     return (

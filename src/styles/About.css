@@ -11,7 +11,7 @@
     justify-content: center;
     align-content: center;
     align-items: center;
-    background-color: #EEEBDF;
+    background-color: #F0F0F0;
 }
 
 /* top header */
@@ -59,7 +59,7 @@
 /* about me content */
 .about .resumeBtn {
     background-color: #3b3c36;
-    color: #EEEBDF;
+    color: #F0F0F0;
     border-radius: 30px 30px 30px 30px;
     border-width: 1px;
     border-style: solid;
@@ -79,14 +79,14 @@
 
 /* about me body */
 .about .list-group-item {
-    background-color: #EEEBDF;
+    background-color: #F0F0F0;
     font-size: 18px;
 
 }
 
 /* resume button */
 .about .resumeBtn:hover {
-    background-color: #EEEBDF;
+    background-color: #F0F0F0;
     color: #3b3c36;
 }
 
