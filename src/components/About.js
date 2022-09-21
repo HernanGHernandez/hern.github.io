@@ -12,36 +12,40 @@ export const About = () => {
         <section className="about" id="About">
             <Container>
                 {/* <div className='outerBackground'> */}
-                <div className='innerBackground'>
-                    <Row className="justify-content-md-center">
-                        <Col xs={12} md={6} xl={6}>
+                {/* <div className='innerBackground'> */}
+                <Row className="justify-content-md-center">
+                    <Col xs={12} md={6} xl={6}>
+                        <div className='title'>
                             <h1><span className="tagline">About Me </span></h1>
-                            {/* <Row className="justify-content-md-center">
+                        </div>
+                        {/* <Row className="justify-content-md-center">
                                     <Col xs={12} md={12} xl={12}> */}
 
-                            <ListGroup className="myList" variant="flush">
-                                <ListGroup.Item> <b> Name: </b> Hernan Hernandez</ListGroup.Item>
-                                <ListGroup.Item> <b> HomeTown: </b> Greenfield, California</ListGroup.Item>
-                                <ListGroup.Item> <b> School: </b> California State University Monterey Bay</ListGroup.Item>
-                                <ListGroup.Item><b> Hobbies: </b> Cooking, Weight Lifting, Art Design,  </ListGroup.Item>
-                                <ListGroup.Item> <b> Resume: </b> <a href={hernResume} className="resumeBtn">Hernandez_Hernan_Resume</a></ListGroup.Item>
-                                <ListGroup.Item><b> Contact Me:</b> <a className="email" href="mailto:hernanghrndz@gmail.com">hernanghrndz@gmail.com</a></ListGroup.Item>
-                            </ListGroup>
-                            {/* </Col>
+                        <ListGroup className="myList" variant="flush">
+                            <ListGroup.Item> <b> Name: </b> Hernan Hernandez</ListGroup.Item>
+                            <ListGroup.Item> <b> HomeTown: </b> Greenfield, California</ListGroup.Item>
+                            <ListGroup.Item> <b> School: </b> California State University Monterey Bay</ListGroup.Item>
+                            <ListGroup.Item><b> Hobbies: </b> Cooking, Weight Lifting, Art Design, learning new things </ListGroup.Item>
+                            <ListGroup.Item> <b> Resume: </b> <a href={hernResume} className="resumeBtn">Hernandez_Hernan_Resume</a></ListGroup.Item>
+                            <ListGroup.Item><b> Contact Me:</b> <a className="email" href="mailto:hernanghrndz@gmail.com">hernanghrndz@gmail.com</a></ListGroup.Item>
+                        </ListGroup>
+                        {/* </Col>
                                 </Row> */}
-                        </Col>
-                        <Col xs={0} md={6} xl={3}>
-                            <div className="outerImg">
+                    </Col>
+                    <Col xs={0} md={6} xl={3}>
+                        <div className='outerImg'>
+                            <div className="innerImg">
                                 <img className="hernImg" width={380} src={hern} alt="about_Img" />
                             </div>
-                            <div className="social-icon">
-                                <a href="https://www.linkedin.com/in/HernanHrndz"> <FiLinkedin size={35} /></a>
-                                <a href="https://www.instagram.com/hernanh_"> <FiInstagram size={35} /></a>
-                                <a href="https://www.github.com/HernanGHernandez"> <TbBrandGithub size={35} /></a>
-                            </div>
-                        </Col>
-                    </Row>
-                </div>
+                        </div>
+                        <div className="social-icon">
+                            <a href="https://www.linkedin.com/in/HernanHrndz"> <FiLinkedin size={35} /></a>
+                            <a href="https://www.instagram.com/hernanh_"> <FiInstagram size={35} /></a>
+                            <a href="https://www.github.com/HernanGHernandez"> <TbBrandGithub size={35} /></a>
+                        </div>
+                    </Col>
+                </Row>
+                {/* </div> */}
                 {/* </div> */}
             </Container>
         </section >

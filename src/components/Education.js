@@ -26,7 +26,7 @@ export const Education = () => {
                         <div className="containerSchool" id="school">
                             <h2>California State University, Monterey Bay</h2>
                             <h3>B.S. - Computer Science, Software Engineering</h3>
-                            <p>Graduation: May 2022</p>
+                            <p className="eduList">Graduation: May 2022</p>
                         </div>
 
                     </Col>
@@ -36,8 +36,8 @@ export const Education = () => {
                     <Col md={{ span: 12, offset: 4 }}>
                         <div className="courses">
                             <h4>Relevant Coursework:</h4>
-                            <p>Computer Science</p>
-                            <ul>
+                            <p className="subTitle" >Computer Science</p>
+                            <ul className="eduList">
                                 <li>Software Engineering(CST 438)</li>
                                 <li>Software Design (CST 338)</li>
                                 <li>Introduction to Database Systems (CST 363)</li>
@@ -53,8 +53,8 @@ export const Education = () => {
                                 <li>Data Structures and Algorithms (CST 238)</li>
                                 <li>Object Oriented Programming (CST 235)</li>
                             </ul>
-                            <p>Other</p>
-                            <ul>
+                            <p className="subTitle" >Other</p>
+                            <ul className="eduList">
                                 <li>Race Gender and Class in the Digital World (CST 462S)</li>
                                 <li>Discrete Mathematics (Math 170)</li>
                                 <li> General Physics/Mechanics (Physics 4A)</li>

@@ -6,7 +6,7 @@ nav.navbar {
     top: 0px;
     z-index: 9999;
     background-color: white;
-    box-shadow: 2px 2px 5px #3b3c36;
+    box-shadow: 5px 5px 10px #e4e4e4;
     transition: top 0.3s;
 }
 
@@ -17,7 +17,7 @@ nav.navbar.scrolled {
     top: 0px;
     transition: 0.3s linear;
     background-color: white;
-    box-shadow: 2px 2px 5px #3b3c36;
+    box-shadow: 2px 2px 5px #e4e4e4;
     transition: top 0.3s;
 }
 

@@ -16,21 +16,23 @@
 
 /* top header */
 .about .tagline {
-    font-weight: 100;
-    letter-spacing: .8;
+    /* font-weight: 350; */
+    /* letter-spacing: .8; */
     padding: 8px 10px;
-    font-size: 60px;
+    font-size: 45px;
     margin-bottom: 1px;
-    text-align: center;
+    /* text-align: center; */
     /* display: inline-block; */
+    color: #3b3c36;
 }
 
 .about h1 {
     /* font-size: 100px; */
-    font-weight: 200;
-    letter-spacing: 0.8px;
-    line-height: 1;
+    /* font-weight: 200; */
+    /* letter-spacing: 0.8px; */
+    /* line-height: 1; */
     text-align: center;
+
 }
 
 .about .img {
@@ -39,7 +41,14 @@
 
 .outerImg {
     background-color: #3b3c36;
-    padding: 10px 390px 0px 0px;
+    padding: 8px 380px 5px 8px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.innerImg {
+    background-color: #96988d;
+    padding: 5px 388px 8px 0px;
     border-radius: 10px;
 }
 
@@ -50,11 +59,11 @@
     border-radius: 25px;
 } */
 
-.outerBackground {
+/* .outerBackground {
     background-color: #3b3c36;
     padding: 20px 20px 0 0;
     border-radius: 50px;
-}
+} */
 
 /* about me content */
 .about .resumeBtn {
@@ -121,4 +130,9 @@
     align-items: center;
     justify-content: center;
     /* line-height: 1; */
+}
+
+.about .social-icon a:hover {
+    color: #96988d;
+
 }
