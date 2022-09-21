@@ -1,7 +1,7 @@
 
 import { Col } from "react-bootstrap";
-
-export const ProjectCard = ({ Title, description, imgUrl }) => {
+import { TbBrandGithub, } from "react-icons/tb";
+export const ProjectCard = ({ Title, description, imgUrl, repoUrl }) => {
     return (
         < Col sm={6} md={4} >
             <div className="proj-imgbx">
@@ -9,6 +9,9 @@ export const ProjectCard = ({ Title, description, imgUrl }) => {
                 <div className="proj-txtx">
                     <h4>{Title}</h4>
                     <span>{description}</span>
+                    <div className="card-icon">
+                        <a href={repoUrl}> <TbBrandGithub size={30} /></a>
+                    </div>
                 </div>
             </div>
         </Col >

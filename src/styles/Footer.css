@@ -22,3 +22,8 @@
     display: inline-block;
     border-radius: 50%;
 }
+
+.Contact a:hover {
+    color: #96988d;
+
+}
