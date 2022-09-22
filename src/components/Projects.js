@@ -58,7 +58,7 @@ export const Projects = () => {
         },
         {
             Title: "Twit",
-            description: "A mock twitter connected to your actual twiiter where you are able to read, post and favorite your tweets",
+            description: "A mock twitter connected to your actual twitter where you are able to read, post and favorite your tweets",
             imgUrl: twit,
             repoUrl: "https://github.com/HernanGHernandez/twitter-ios",
         },
