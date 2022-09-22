@@ -11,6 +11,9 @@
     font-size: 45px
 }
 
+/* .project-Img{
+    width:380} height={380}
+} */
 .proj-imgbx {
     position: relative;
     /* border-radius: 100%; */
@@ -83,3 +86,44 @@
     right: 0;
     z-index: -4;
 } */
+/* for mobile not done yet */
+@media screen and (max-width:1024px) {
+    .proj-imgbx .project-Img {
+        width: 250px;
+        height: 250px;
+        /* padding: 0px, 1000px, 0px, 1000px; */
+    }
+
+    .Projects {
+        padding: 10px;
+        position: relative;
+        background-color: white;
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .proj-txtx h4 {
+        font-size: 20px;
+        font-weight: 500;
+        /* letter-spacing: 0.8px; */
+        /* line-height: 1.1em; */
+    }
+
+    .proj-txtx span {
+        font-style: italic;
+        font-weight: 400;
+        font-size: 12px;
+        /* letter-spacing: 0.8px; */
+    }
+
+    .proj-txtx {
+        position: absolute;
+        text-align: center;
+        top: 65%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        transition: 0.5s ease-in-out;
+        opacity: 0;
+        width: 65%;
+    }
+}

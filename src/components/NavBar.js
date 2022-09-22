@@ -61,7 +61,8 @@ export const NavBar = () => {
                 <Navbar.Toggle>
                     {/* hamburger side button \*/}
                     <span className='toggleButton' onClick={handleClick}>
-                        {click ? <FaEllipsisH /> : <TbArrowBack />} </span>
+                        {click ? <TbArrowBack /> : <FaEllipsisH />} </span>
+
                 </Navbar.Toggle>
 
 

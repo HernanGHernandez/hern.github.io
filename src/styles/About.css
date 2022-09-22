@@ -136,3 +136,56 @@
     color: #96988d;
 
 }
+
+
+/* for mobile not ready yet */
+@media screen and (max-width:940px) {
+
+    /* .banner {
+        height: 90vh;
+    } */
+    .about {
+        margin-top: 120px;
+        /* padding: 260px 0 100px 0; */
+        /* background-image: url('../assets/img/minimalist-hern.png'); */
+        background-position: top center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 120vh;
+        /* Magic here */
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        background-color: #F0F0F0;
+    }
+
+    .about .hernImg {
+        /* position: fixed; */
+        width: 350px;
+        height: 500px;
+        /* margin-bottom: 500px; */
+    }
+
+    .outerImg {
+        background-color: #3b3c36;
+        padding: 8px 30px 8px 8px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .innerImg {
+        background-color: #96988d;
+        padding: 8px 345px 8px 0px;
+        border-radius: 10px;
+    }
+
+    .about .social-icon {
+        text-align: center;
+        margin-left: 120px;
+        margin-bottom: 200px;
+        /* margin-right: 40px; */
+    }
+
+}
