@@ -66,7 +66,7 @@ nav.navbar.hidden {
 
 } */
 
-*/
+
 /* nav.navbar.scrolled {
     padding: 0px 0;
     background-color: #3b3c36;
@@ -148,10 +148,6 @@ nav.navbar .navbar-nav a.nav-link.navbar-link:hover::before {
     transform: scaleX(1);
 }
 
-/* span.navbar-text {
-    display: flex;
-    align-items: center;
-} */
 
 .social-icon {
     display: inline-block;
