@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.1421d638.css",
-    "main.js": "/react-gh-pages/static/js/main.c60d9e58.js",
-    "static/js/787.fb771931.chunk.js": "/react-gh-pages/static/js/787.fb771931.chunk.js",
-    "static/media/hern.jpeg": "/react-gh-pages/static/media/hern.22deae8112715c4e79d9.jpeg",
-    "static/media/csumbLogo.png": "/react-gh-pages/static/media/csumbLogo.1a6daa7270c8d6c62baf.png",
-    "static/media/minimalist-hern.png": "/react-gh-pages/static/media/minimalist-hern.f4f19d597a1da92057bb.png",
-    "static/media/Hernan_Hernandez_Resume.pdf": "/react-gh-pages/static/media/Hernan_Hernandez_Resume.52d6f24c8e3ade1f53ec.pdf",
-    "static/media/musicIcon.png": "/react-gh-pages/static/media/musicIcon.1d2b16a514b17a76ba09.png",
-    "static/media/foodtrack.png": "/react-gh-pages/static/media/foodtrack.e02e9ec735c5bf555432.png",
-    "static/media/parkingChat.png": "/react-gh-pages/static/media/parkingChat.a3acffca708acfbac13f.png",
-    "static/media/insta.png": "/react-gh-pages/static/media/insta.828b335a13fb185eb46a.png",
-    "static/media/personalWeb.png": "/react-gh-pages/static/media/personalWeb.f8c1e4d27a98b31b2ba3.png",
-    "static/media/tipCalc.png": "/react-gh-pages/static/media/tipCalc.0b38d03cf7fc81e155a0.png",
-    "static/media/twitterLogo.png": "/react-gh-pages/static/media/twitterLogo.bdd9c513e41a2cd9f478.png",
-    "static/media/wishlist.png": "/react-gh-pages/static/media/wishlist.1808b0d78d8d0faecc39.png",
-    "static/media/gigster.png": "/react-gh-pages/static/media/gigster.aac3a58b40c0111cbf32.png",
-    "index.html": "/react-gh-pages/index.html",
-    "main.1421d638.css.map": "/react-gh-pages/static/css/main.1421d638.css.map",
-    "main.c60d9e58.js.map": "/react-gh-pages/static/js/main.c60d9e58.js.map",
-    "787.fb771931.chunk.js.map": "/react-gh-pages/static/js/787.fb771931.chunk.js.map"
+    "main.css": "/personal-portfolio/static/css/main.1421d638.css",
+    "main.js": "/personal-portfolio/static/js/main.654b8b3e.js",
+    "static/js/787.fb771931.chunk.js": "/personal-portfolio/static/js/787.fb771931.chunk.js",
+    "static/media/hern.jpeg": "/personal-portfolio/static/media/hern.22deae8112715c4e79d9.jpeg",
+    "static/media/csumbLogo.png": "/personal-portfolio/static/media/csumbLogo.1a6daa7270c8d6c62baf.png",
+    "static/media/minimalist-hern.png": "/personal-portfolio/static/media/minimalist-hern.f4f19d597a1da92057bb.png",
+    "static/media/Hernan_Hernandez_Resume.pdf": "/personal-portfolio/static/media/Hernan_Hernandez_Resume.52d6f24c8e3ade1f53ec.pdf",
+    "static/media/musicIcon.png": "/personal-portfolio/static/media/musicIcon.1d2b16a514b17a76ba09.png",
+    "static/media/foodtrack.png": "/personal-portfolio/static/media/foodtrack.e02e9ec735c5bf555432.png",
+    "static/media/parkingChat.png": "/personal-portfolio/static/media/parkingChat.a3acffca708acfbac13f.png",
+    "static/media/insta.png": "/personal-portfolio/static/media/insta.828b335a13fb185eb46a.png",
+    "static/media/personalWeb.png": "/personal-portfolio/static/media/personalWeb.f8c1e4d27a98b31b2ba3.png",
+    "static/media/tipCalc.png": "/personal-portfolio/static/media/tipCalc.0b38d03cf7fc81e155a0.png",
+    "static/media/twitterLogo.png": "/personal-portfolio/static/media/twitterLogo.bdd9c513e41a2cd9f478.png",
+    "static/media/wishlist.png": "/personal-portfolio/static/media/wishlist.1808b0d78d8d0faecc39.png",
+    "static/media/gigster.png": "/personal-portfolio/static/media/gigster.aac3a58b40c0111cbf32.png",
+    "index.html": "/personal-portfolio/index.html",
+    "main.1421d638.css.map": "/personal-portfolio/static/css/main.1421d638.css.map",
+    "main.654b8b3e.js.map": "/personal-portfolio/static/js/main.654b8b3e.js.map",
+    "787.fb771931.chunk.js.map": "/personal-portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1421d638.css",
-    "static/js/main.c60d9e58.js"
+    "static/js/main.654b8b3e.js"
   ]
 }
