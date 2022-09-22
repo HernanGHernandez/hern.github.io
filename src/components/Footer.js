@@ -16,7 +16,7 @@ export const Footer = () => {
                     <span className='dot'>•</span>
                     <a href="https://www.instagram.com/hernanh_"> <FiInstagram size={35} /></a>
                     <span className='dot'>•</span>
-                    <a href="https://www.github.com/HernanGHernandez"> <TbBrandGithub size={35} /></a>
+                    <a href="https://www.github.com/hern-hrndz"> <TbBrandGithub size={35} /></a>
                 </div>
                 <div className='footerSection'>
                     <p>©2022 Copyright: Hernan Hernandez</p>

@@ -41,7 +41,7 @@ export const About = () => {
                         <div className="social-icon">
                             <a href="https://www.linkedin.com/in/HernanHrndz"> <FiLinkedin size={35} /></a>
                             <a href="https://www.instagram.com/hernanh_"> <FiInstagram size={35} /></a>
-                            <a href="https://www.github.com/HernanGHernandez"> <TbBrandGithub size={35} /></a>
+                            <a href="https://www.github.com/hern-hrndz"> <TbBrandGithub size={35} /></a>
                         </div>
                     </Col>
                 </Row>
