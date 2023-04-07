@@ -2,12 +2,13 @@ import React, { useEffect, useState } from 'react';
 import { Container, Row, Col, ListGroup, Badge, Button } from "react-bootstrap";
 import "../styles/About.css";
 import hernResume from "../assets/img/Hernan_Hernandez_Resume.pdf"
-import hern from "../assets/img/hern.jpeg"
+import hern from "../assets/img/hern.png"
 import { TbBrandGithub, } from "react-icons/tb";
 import { FiLinkedin, FiInstagram } from "react-icons/fi";
 
 
 export const About = () => {
+
     return (
         <section className="about" id="About">
             <Container>

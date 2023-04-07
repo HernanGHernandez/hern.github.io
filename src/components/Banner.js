@@ -11,7 +11,6 @@ export const Banner = () => {
     const [click, setClick] = useState(false);
     const handleClick = () => {
         console.log("you clickd")
-        // return <Link to="#About" smooth="true" />
     }
 
     return (
