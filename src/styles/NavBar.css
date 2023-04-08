@@ -9,10 +9,8 @@
     width: 100%;
     top: 0px;
     z-index: 999;
-    /* background-color: rgb(181, 66, 66); */
     box-shadow: 3px 3px 5px #e4e4e4;
-    transition: top 0.3s;
-    /* transition: 0.3s linear; */
+    transition: top 0.7s;
 }
 
 /* mobile view */

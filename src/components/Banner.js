@@ -17,19 +17,19 @@ export const Banner = () => {
         <section className="banner" id="home">
             <Container>
                 <Row className="justify-content-md-center">
-                    <Col xs={1} md={5} xl={5}>
-                        <div className='bannerImg'>
-                            <img className="photo" src={hernDrawing} alt="header_Img" />
-                        </div>
+                    <Col xs={12} md={5} lg={5} className='bannerImg'>
+                        {/* <div className='bannerImg'> */}
+                        <img className="photo" src={hernDrawing} alt="header_Img" />
+                        {/* </div> */}
                     </Col>
                     {/* <Col md="auto"> width contnet</Col> */}
-
-                    <Col xs={9} md={5} xl={6}>
-                        <h1><span className="tagline">Hernan Hernandez </span></h1>
+                    {/* <Col xs={9} md={5} xl={6}> */}
+                    <Col xs={11} md={6} lg={6} className="header-text">
+                        <h1>Hernan Hernandez </h1>
                         <div className="text-block">
                             <Typewriter
                                 options={{
-                                    strings: ["Hey there!", "Nice to Meet You.", `I'm a recent CS-Software Engineering grad from CSU Monterey Bay!`, 'Aside from enjoying full stack work', 'i recently found a new hobby in building custom keyboards', 'i also enjoy creating minimalist art.', 'Thanks for visiting!'],
+                                    strings: ["Hey there!", "Nice to Meet You.", "I'm a graduate from CSUMB with a degreee in Computer Science, Software Engineering", "you'll ge to see some of my projects here and for a more in depth view can head over to my github", "Some hobbies I enjoy doing is finding something new to cook, hitting the gym, or watching a new film.", 'Thanks for visiting!'],
                                     autoStart: true,
                                     delay: 20,
                                     loop: true,
@@ -38,14 +38,13 @@ export const Banner = () => {
                             />
                         </div>
                     </Col>
-                    <Col xs={2} md={2} xl={1}>
-                        <div className='dropBtn'>
-                            <Link to="/#About">
-                                <button className='dropBtn' onClick={handleClick}>
-                                    <AiOutlineDown size={35} />
-                                </button>
-                            </Link>
-                        </div>
+                    {/* <Col xs={2} md={2} xl={1}></Col> */}
+                    <Col xs={1} className="Btn-Pos">
+                        <Link to="/#About">
+                            <button className='dropBtn' onClick={handleClick}>
+                                <AiOutlineDown size={35} />
+                            </button>
+                        </Link>
                     </Col>
                 </Row>
 

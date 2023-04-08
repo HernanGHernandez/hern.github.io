@@ -34,7 +34,6 @@ export const NavBar = () => {
     }, []);
 
     return (
-
         <Navbar className={navbar ? 'navbar active' : 'navbar'} expand="lg">
             <Container >
                 {/* Logo */}

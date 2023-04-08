@@ -1,66 +1,63 @@
 .banner {
-    margin-top: 0%;
-    /* padding: 260px 0 100px 0; */
-    /* background-image: url('../assets/img/minimalist-hern.png'); */
-    background-position: top center;
-    background-size: cover;
-    background-repeat: no-repeat;
     height: 100vh;
-    /* Magic here */
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
 }
 
 .banner .photo {
-    width: 500px;
+    max-width: 100%;
+    height: auto;
 }
 
-.banner .tagline {
-    font-weight: 700;
-    letter-spacing: .8;
-    padding: 8px 10px;
-    font-size: 60px;
-    margin-bottom: 16px;
-    text-align: center;
-    /* display: inline-block; */
+.bannerImg {
+    display: flex;
+    align-items: center;
 }
 
 .banner h1 {
-    font-size: 200px;
+    font-size: 60px;
     font-weight: 700;
     letter-spacing: 0.8px;
     line-height: 1;
-    margin-top: 100px;
     margin-bottom: 10px;
     text-align: center;
     color: #3b3c36;
 }
 
+.header-text {
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    /* height: 100vh; */
+
+}
+
 /* type writer text */
 .banner .Typewriter {
     font-size: 24px;
-    padding: 0px 0px 10px 50px;
     font-weight: 700;
-    /* margin-top: 100px; */
     text-align: center;
-    margin-right: 100px;
-    /* margin-bottom: 16px; */
     color: #3b3c36;
+
+}
+
+.text-block {
+    height: 100px;
 }
 
 /* down arrow button */
 .banner .dropBtn {
-    /* padding: 35px 1px; */
-    position: relative;
-    margin-top: 125px;
-    /* margin-right: 200px; */
     background-color: transparent;
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     border: none;
-    animation: updown 2s linear infinite;
+    animation: updown 1.5s linear infinite;
     color: #3b3c36 !important;
+}
+
+.Btn-Pos {
+    text-align: center;
+    display: flex;
+    align-items: center;
 }
 
 @keyframes updown {
@@ -73,7 +70,7 @@
     }
 
     30% {
-        transform: scale(.9, 1.1) translateY(-25px);
+        transform: scale(.9, 1.1) translateY(-30px);
     }
 
     50% {
@@ -93,61 +90,46 @@
     }
 }
 
-/* for mobile not ready yet */
 @media screen and (max-width:940px) {
-    /* .banner {
-        height: 90vh;
-    } */
-
-    .banner .photo {
-        width: 365px;
-        height: 600px;
-
-
+    .banner {
+        height: auto;
     }
 
     .banner .dropBtn {
-        /* padding: 35px 1px; */
-        position: relative;
-        margin-top: 200px;
-        /* margin-right: 200px; */
         background-color: transparent;
-        color: #cfcfc4 !important;
+        background-repeat: no-repeat;
+        border: none;
+        animation: updown 1.5s linear infinite;
+        color: #3b3c36 !important;
     }
 
-    .banner .tagline {
-        color: #cfcfc4;
-        /* margin-left: 500px; */
-        display: inline-block;
+    @keyframes updown {
+        0% {
+            transform: scale(1, 1) translateY(0);
+        }
 
-    }
+        10% {
+            transform: scale(1.1, .9) translateY(0);
+        }
 
-    .banner h1 {
-        color: #cfcfc4;
-        font-size: 100px;
-        /* display: inline-block; */
-        font-weight: 700;
+        30% {
+            transform: scale(.9, 1.1) translateY(50px);
+        }
 
-        line-height: 1;
-        /* margin-top: 100px; */
-        /* margin-bottom: 10px; */
-        text-align: center;
-    }
+        50% {
+            transform: scale(1, 1) translateY(0);
+        }
 
+        57% {
+            transform: scale(1, 1) translateY(-7px);
+        }
 
-    .banner .Typewriter {
-        color: #cfcfc4;
-        display: inline-block;
+        64% {
+            transform: scale(1, 1) translateY(0);
+        }
 
-        background-color: #585046;
-    }
-
-    .text-block {
-        position: absolute;
-        bottom: 149px;
-        right: 10px;
-        padding-left: 12px;
-        padding-right: 1px;
-        padding-top: 100px;
+        100% {
+            transform: scale(1, 1) translateY(0);
+        }
     }
 }

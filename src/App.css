@@ -3,11 +3,6 @@
 
 } */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -31,8 +26,6 @@ html {
   scroll-behavior: smooth;
   font-family: nobel, sans-serif;
   font-style: normal;
-  /* margin: 0;
-  padding: 0; */
   scroll-padding: 75px;
 }
 
@@ -62,10 +55,20 @@ h6 {
 } */
 .container {
   /* display: flex; */
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-content: center;
+  /* height: 100vh; */
+  /* width: 100%; */
+  /* overflow-y: scroll; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* flex-wrap: wrap; */
+  /* max-width: 1200px; */
+  /*padding: 1rem; */
+
+  /* choose smaller between max-width or 100  */
+  /* width: min(var(--max-width), 100% - (var(--padding) * 2)); */
+  margin-inline: auto;
+  /* text-align: center; */
+  /* align-content: center; */
 }
 
 /* section {
