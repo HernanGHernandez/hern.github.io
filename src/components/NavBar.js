@@ -18,7 +18,7 @@ export const NavBar = () => {
 
     const showHeader = () => {
         console.log(window.scrollY);
-        if (window.scrollY >= 1000) {
+        if (window.scrollY >= 900) {
             setNavbar(true);
         } else {
             setNavbar(false);

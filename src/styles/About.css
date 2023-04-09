@@ -1,5 +1,5 @@
 .about {
-    margin-top: 0%;
+    /* margin-top: 0%; */
     /* padding: 260px 0 100px 0; */
     /* background-image: url('../assets/img/minimalist-hern.png'); */
     background-position: top center;
@@ -15,55 +15,53 @@
 }
 
 /* top header */
-.about .tagline {
-    /* font-weight: 350; */
-    /* letter-spacing: .8; */
+.about h1 {
+
+    color: #3b3c36;
     padding: 8px 10px;
     font-size: 45px;
     margin-bottom: 1px;
-    /* text-align: center; */
-    /* display: inline-block; */
-    color: #3b3c36;
-}
-
-.about h1 {
-    /* font-size: 100px; */
-    /* font-weight: 200; */
-    /* letter-spacing: 0.8px; */
-    /* line-height: 1; */
     text-align: center;
 
 }
 
-.about .img {
+.image-background {
+    position: relative;
+    display: inline-block;
+    border-radius: 20px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    background-color: red;
+    /* change this to the color you want */
+
+}
+
+.image-background::before {
+    content: "";
     position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    background: linear-gradient(to bottom right, rgba(255, 255, 255, 5), rgba(255, 255, 255, 0));
+    transform: skew(-10deg);
 }
 
-.outerImg {
-    background-color: #3b3c36;
-    padding: 8px 380px 5px 8px;
-    border-radius: 10px;
-    margin-bottom: 10px;
+.image-container {
+    position: relative;
+    display: inline-block;
+    border-radius: 20px;
+    overflow: hidden;
 }
 
-.innerImg {
-    background-color: #96988d;
-    padding: 5px 388px 8px 0px;
-    border-radius: 10px;
+.hernImg {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    position: relative;
+    z-index: 1;
 }
-
-/* backgrounds for about me */
-/* .innerBackground {
-    background-color: #cfcfc4;
-    padding: 60px 0 60px 0;
-    border-radius: 25px;
-} */
-
-/* .outerBackground {
-    background-color: #3b3c36;
-    padding: 20px 20px 0 0;
-    border-radius: 50px;
-} */
 
 /* about me content */
 .about .resumeBtn {
@@ -114,45 +112,26 @@
 
 /* social icons */
 .about .social-icon {
-    text-align: center;
-    margin-left: 120px;
-    /* margin-right: 40px; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 .about .social-icon a {
     color: #3b3c36;
-    /* text-align: center; */
-    width: 42px;
-    height: 42px;
-    display: inline-flex;
-    border-radius: 50%;
-    margin-right: 10px;
-    align-items: center;
-    justify-content: center;
-    /* line-height: 1; */
+    margin: 0 10px;
 }
 
 .about .social-icon a:hover {
     color: #96988d;
-
 }
 
 
 /* for mobile not ready yet */
-@media screen and (max-width:940px) {
+@media screen and (max-width: 767px) {
 
-    /* .banner {
-        height: 90vh;
-    } */
     .about {
-        margin-top: 120px;
-        /* padding: 260px 0 100px 0; */
-        /* background-image: url('../assets/img/minimalist-hern.png'); */
-        background-position: top center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: 120vh;
-        /* Magic here */
+        height: 105vh;
         display: flex;
         justify-content: center;
         align-content: center;
@@ -161,31 +140,20 @@
     }
 
     .about .hernImg {
-        /* position: fixed; */
-        width: 350px;
-        height: 500px;
-        /* margin-bottom: 500px; */
+        max-width: 100%;
+        height: auto;
     }
 
-    .outerImg {
-        background-color: #3b3c36;
-        padding: 8px 30px 8px 8px;
-        border-radius: 10px;
-        margin-bottom: 10px;
-        margin-top: 10px;
-    }
-
-    .innerImg {
-        background-color: #96988d;
-        padding: 8px 345px 8px 0px;
-        border-radius: 10px;
-    }
 
     .about .social-icon {
-        text-align: center;
-        margin-left: 120px;
-        margin-bottom: 200px;
-        /* margin-right: 40px; */
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .about .social-icon a {
+        padding: 10px;
     }
 
 }

@@ -93,6 +93,8 @@
 @media screen and (max-width:940px) {
     .banner {
         height: auto;
+        padding: 0 20px 10pc;
+
     }
 
     .banner .dropBtn {
@@ -101,6 +103,13 @@
         border: none;
         animation: updown 1.5s linear infinite;
         color: #3b3c36 !important;
+    }
+
+    .Btn-Pos {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        padding-top: 50px;
     }
 
     @keyframes updown {
@@ -113,7 +122,7 @@
         }
 
         30% {
-            transform: scale(.9, 1.1) translateY(50px);
+            transform: scale(.9, 1.1) translateY(40px);
         }
 
         50% {

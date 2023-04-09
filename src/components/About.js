@@ -15,7 +15,7 @@ export const About = () => {
                 {/* <div className='outerBackground'> */}
                 {/* <div className='innerBackground'> */}
                 <Row className="justify-content-md-center">
-                    <Col xs={12} md={6} xl={6}>
+                    <Col xs={9} md={6} lg={6}>
                         <div className='title'>
                             <h1><span className="tagline">About Me </span></h1>
                         </div>
@@ -33,12 +33,16 @@ export const About = () => {
                         {/* </Col>
                                 </Row> */}
                     </Col>
-                    <Col xs={0} md={6} xl={3}>
-                        <div className='outerImg'>
-                            <div className="innerImg">
-                                <img className="hernImg" width={380} src={hern} alt="about_Img" />
+                    <Col xs={3} md={6} lg={6} className="img-col">
+                        {/* <div className='outerImg'>
+                            <div className="innerImg"> */}
+                        <div className="image-container">
+                            <div className="image-background">
+                                <img className="hernImg" src={hern} alt="about_Img" />
                             </div>
                         </div>
+                        {/* </div>
+                        </div> */}
                         <div className="social-icon">
                             <a href="https://www.linkedin.com/in/HernanHrndz"> <FiLinkedin size={35} /></a>
                             <a href="https://www.instagram.com/hernanh_"> <FiInstagram size={35} /></a>
