@@ -5,7 +5,7 @@
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 85vh;
     /* Magic here */
     display: flex;
     justify-content: center;
@@ -131,7 +131,7 @@
 @media screen and (max-width: 767px) {
 
     .about {
-        height: 105vh;
+        height: 85vh;
         display: flex;
         justify-content: center;
         align-content: center;

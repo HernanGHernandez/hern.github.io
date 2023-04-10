@@ -15,14 +15,14 @@ export const Education = () => {
                     <h1><span className="eduTitle">Education </span></h1>
                 </div>
                 <Row className="justify-content-md-center">
-                    <Col xs lg="2">
+                    <Col xs="12" md="4" lg="2">
 
-                        <div>
-                            <img width={100} src={csumbLogo} alt="csumbImg" />
+                        <div className="csumb-logo">
+                            <img width={125} src={csumbLogo} alt="csumbImg" />
                         </div>
 
                     </Col>
-                    <Col xs lg="6">
+                    <Col xs md="8" lg="6">
                         <div className="containerSchool" id="school">
                             <h2>California State University, Monterey Bay</h2>
                             <h3>B.S. - Computer Science, Software Engineering</h3>
@@ -33,7 +33,7 @@ export const Education = () => {
                 </Row>
                 <Row>
                     {/* <Col md={{ span: 2, offset: 4 }}>{`md={{ span: 4, offset: 4 }}`}</Col> */}
-                    <Col md={{ span: 12, offset: 4 }}>
+                    <Col lg={{ span: 12, offset: 4 }}>
                         <div className="courses">
                             <h4>Relevant Coursework:</h4>
                             <p className="subTitle" >Computer Science</p>
