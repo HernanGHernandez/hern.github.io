@@ -1,19 +1,21 @@
 .Projects {
-    padding: 80px;
+    padding: 100px 0;
     position: relative;
     background-color: white;
     text-align: center;
 }
 
+h1 {
+    font-size: 45px !important;
+    /* font-weight: 500 !important; */
+}
+
 .Projects .title {
     padding: 0px 0px 40px 0px;
     color: #3b3c36;
-    font-size: 45px
 }
 
-/* .project-Img{
-    width:380} height={380}
-} */
+
 .proj-imgbx {
     position: relative;
     /* border-radius: 100%; */
@@ -36,14 +38,21 @@
 }
 
 .proj-txtx {
+    padding: 10px 0;
     position: absolute;
-    text-align: center;
-    top: 65%;
+    text-align: left;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     transition: 0.5s ease-in-out;
     opacity: 0;
-    width: 80%;
+    width: 85%;
+    max-width: 380px;
+    max-height: 100%;
+    overflow: auto;
+    /* overflow: scroll; */
+    /* padding-top: 120px; */
+    /* word-wrap: break-word; */
 }
 
 .proj-imgbx:hover .proj-txtx {
@@ -56,17 +65,20 @@
     font-weight: 700;
     letter-spacing: 0.8px;
     line-height: 1.1em;
+    text-align: center;
 }
 
-.proj-txtx span {
-    font-style: italic;
-    font-weight: 400;
-    font-size: 15px;
+.proj-txtx .txt-desc {
+    /* font-style: italic; */
+    font-weight: 500;
+    font-size: 18px;
     letter-spacing: 0.8px;
+    /* text-align: left !important; */
 }
 
 .card-icon {
     margin-top: 20px;
+    text-align: center;
 }
 
 .card-icon a {
@@ -76,54 +88,4 @@
 .card-icon a:hover {
     color: #96988d;
 
-}
-
-/* .background-image-right {
-    top: 20%;
-    position: absolute;
-    bottom: 0;
-    width: 35%;
-    right: 0;
-    z-index: -4;
-} */
-/* for mobile not done yet */
-@media screen and (max-width:1024px) {
-    .proj-imgbx .project-Img {
-        width: 250px;
-        height: 250px;
-        /* padding: 0px, 1000px, 0px, 1000px; */
-    }
-
-    .Projects {
-        padding: 10px;
-        position: relative;
-        background-color: white;
-        text-align: center;
-        margin-top: 100px;
-    }
-
-    .proj-txtx h4 {
-        font-size: 20px;
-        font-weight: 500;
-        /* letter-spacing: 0.8px; */
-        /* line-height: 1.1em; */
-    }
-
-    .proj-txtx span {
-        font-style: italic;
-        font-weight: 400;
-        font-size: 12px;
-        /* letter-spacing: 0.8px; */
-    }
-
-    .proj-txtx {
-        position: absolute;
-        text-align: center;
-        top: 65%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        transition: 0.5s ease-in-out;
-        opacity: 0;
-        width: 65%;
-    }
 }

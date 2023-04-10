@@ -5,12 +5,12 @@ export const ProjectCard = ({ Title, description, imgUrl, repoUrl }) => {
     return (
         < Col sm={6} md={4} >
             <div className="proj-imgbx">
-                <img className="project-Img" width={380} height={380} src={imgUrl} alt="projectImg" />
+                <img className="project-Img img-fluid" width={380} height={380} src={imgUrl} alt="projectImg" />
                 <div className="proj-txtx">
                     <h4>{Title}</h4>
-                    <span>{description}</span>
+                    <span className="txt-desc">{description}</span>
                     <div className="card-icon">
-                        <a href={repoUrl}> <TbBrandGithub size={30} /></a>
+                        <a href={repoUrl}> <TbBrandGithub size={40} /></a>
                     </div>
                 </div>
             </div>

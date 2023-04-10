@@ -1,14 +1,20 @@
 .Education {
-    padding: 120px 0;
+    padding: 100px 0;
     position: relative;
     background-color: #474d5a;
     text-align: center;
     color: #F0F0F0;
 }
 
+h1 {
+    font-size: 45px !important;
+    /* font-weight: 500 !important; */
+}
+
 .Education .title {
     padding: 0px 0px 20px 0px;
     color: #F0F0F0;
+
 }
 
 .containerSchool {

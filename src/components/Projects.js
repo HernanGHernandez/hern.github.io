@@ -81,7 +81,7 @@ export const Projects = () => {
         <section className="Projects" id="projects">
             <Container>
                 <div className="title">
-                    <h1><span className="projTitle">Projects </span></h1>
+                    <h1>Projects </h1>
                 </div>
                 <Row className="justify-content-md-center">
                     <Col>
